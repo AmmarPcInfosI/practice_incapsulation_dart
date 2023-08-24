@@ -3,6 +3,6 @@ class User{
   void setId(String id){
     _id=id;
   }
-  String getId()=> _id!;
+  String getId()=> _id??"0";
 
 }

@@ -3,6 +3,8 @@ import 'user.dart';
 void main() {
   String id="s116247";
   User usr=new User();
-  usr.getId();
   usr.setId(id);
+  print(usr.getId());
+  
+  
 }
